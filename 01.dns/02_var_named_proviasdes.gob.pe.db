@@ -1,0 +1,29 @@
+$TTL 86400
+@ IN SOA ns1.proviasdes.gob.pe.lan. admin.proviasdes.gob.pe.lan. (
+    2023111008 ;Serial
+    3600 ;Refresh
+    1800 ;Retry
+    604800 ;Expire
+    86400 ;Minimum TTL
+)
+
+;Name Server Information
+@ IN NS ns1.proviasdes.gob.pe.lan.
+
+;IP for Name Server
+ns1 IN A 10.223.0.110
+
+;A Record for IP address to Hostname
+
+; ORIGEN
+webmail      IN     A   192.168.0.107     <-- Ajustar
+
+; DESTINO
+mail        IN      A   10.223.0.110
+mail            IN      A       10.223.0.110
+mail.proviasdes.gob.pe  MX      10      mail.proviasdes.gob.pe
+mail.proviasdes.gob.pe  A       10.223.0.110
+
+
+mypc    IN      A       192.168.0.102
+

@@ -1,0 +1,1 @@
+zmprov ms `zmhostname` -zimbraServiceEnabled dnscache -zimbraServiceInstalled dnscache

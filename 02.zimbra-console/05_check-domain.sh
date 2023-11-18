@@ -1,0 +1,1 @@
+zmprov gacf | grep mailsa.zimbra.lan
