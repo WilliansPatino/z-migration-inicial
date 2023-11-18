@@ -19,7 +19,9 @@ ns1     IN      A   10.223.0.110
 ; DESTINO
 110 IN PTR mail.proviasdes.gob.pe
 
-;  SOURCE
-107 IN PTR webmail.proviasdes.gob.pe   <--- Ajustar
+;  SOURCE  
+
+;   --- Ajustar  ----
+107 IN PTR webmail.proviasdes.gob.pe   
 
 
